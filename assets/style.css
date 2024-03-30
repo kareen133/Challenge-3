@@ -69,5 +69,17 @@ table ,td {
 
 td{
     padding: 10px ;
-   padding-right: 200px;
+   padding-right:150px;
+}
+
+@media screen and (max-width:375px) {
+    .main-container{
+        max-width: 357px;
+        height: fit-content;
+        padding: unset;
+        margin: unset;
+        box-sizing: content-box;
+    }
+   
+   
 }
