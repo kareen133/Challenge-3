@@ -25,21 +25,20 @@ img{
 }
 
 .list-wrapper{
-    padding: 7px;
-    
+    max-width: 100%;
+    padding: 2px;
     background-color: hsl(30, 54%, 90%);
     border-radius: 9px;
     line-height: 30px;
 }
-
 .list-wrapper h3{
    color: hsl(332, 51%, 32%) ;
-   margin: 12px;
+   margin: 8px;
 }
 
 .postion-style{
   
-    line-height: 20px;
+    line-height: 30px;
 }
 
 p{
@@ -49,21 +48,26 @@ p{
 
 .header-color , li::marker {
     color:hsl(14, 45%, 36%);
+   
 
 }
-ul,ol{
+ul li ,ol  li{
     padding: 0px 20px;
+  
+}
+li::marker{
+    font-weight: bold;
 }
 
-
-table{
-   width: 375px;
+table ,td {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    
+}
+#table{
     border-collapse: collapse;
 }
-tr{
-    border-bottom: 1xp solid hsl(30, 18%, 87%);
-}
-td{
-    padding: 10px 40px;
-}
 
+td{
+    padding: 10px ;
+   padding-right: 200px;
+}
