@@ -1,14 +1,17 @@
 body{
 background-color: hsl(330, 100%, 98%);
-
+color:  hsl(30, 10%, 34%);
+font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
-h1 , h3{
-    font-family: "Young Serif", serif;
+h1 , h3 , b , .header-container p{
+    font-family: "Young Serif",serif;
     font-weight: 400;
     font-style: normal;
-   
 }
+
 .main-container{
     max-width: 520px;
    /* max-height: 1440px;*/
